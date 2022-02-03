@@ -6,9 +6,9 @@ const cookieParser = require('cookie-parser')
 const bodyParser = require('body-parser')
 
 // // Database collections
-const Datastore = require('nedb')
-const users = new Datastore({ filename: './data/users', autoload: true })
-const rooms = new Datastore({ filename: './data/rooms', autoload: true })
+// const Datastore = require('nedb')
+// const users = new Datastore({ filename: './data/users', autoload: true })
+// const rooms = new Datastore({ filename: './data/rooms', autoload: true })
 
 // Constants
 const port = process.env.PORT || 5300
