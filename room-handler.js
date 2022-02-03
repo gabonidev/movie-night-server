@@ -1,6 +1,6 @@
 const randomstring = require('randomstring')
 
-DEV = true
+DEV = false
 
 module.exports = (io, { users, rooms }) => {
 	function createRoom(userId, callback) {
